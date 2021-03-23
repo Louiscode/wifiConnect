@@ -1,4 +1,4 @@
-## Phase Based video Motion Magnification
+## FlowNet: Learning Optical Flow with Convolutional Networks
 ### Authors: CIOCARLAN Alina, KLEIMAN Ilan, LEMERLE Gaspard, SANT'ANNA Louis
 
 This project is about optical flow : Main goal is implementation of optical flow computation based on flownet within fine-tuning.
