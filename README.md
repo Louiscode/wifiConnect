@@ -6,6 +6,16 @@ This project has been implemented in python, our activities were based on the pa
 
 All the python scripts and files related to our work are located in [this drive](https://drive.google.com/drive/folders/1s9p2EZWLD_2DntLngYlr0w6E2-8pVQE6?usp=sharing "this drive").
 
+####Requirements
+* torch>=1.2, torchvision
+* numpy
+* spatial-correlation-sampler>=0.2.1
+* tensorboard
+* imageio
+* argparse, path, tqdm
+* scipy
+
+
 #### Our main function is located in the notebook named FlowNet_fine_tuning.ipynb. This notebook contains functions for fine-tuning the FlowNetS architecture, it manages : 
 * Fine-tuning the FlowNetS
 * Using pretained weights for our neural network from 'flownets_EPE1.951.pth.tar' given by Clément Pinard
