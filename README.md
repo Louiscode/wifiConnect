@@ -1,23 +1,27 @@
 ## Phase Based video Motion Magnification
-### Authors: Alina CIOCARLAN and Louis SANT'ANNA
+### Authors: CIOCARLAN Alina, KLEIMAN Ilan, LEMERLE Gaspard, SANTANNA Louis
 
-This project is about motion magnification : Main goal is to amplify some kind of small motions not visible by human retina.
-This project has been implemented in python, our activities were based on the paper accessible [here](http://people.csail.mit.edu/nwadhwa/phase-video/ "here").
+This project is about optical flow : Main goal is implementation of optical flow computation based on flownet within fine-tuning.
+This project has been implemented in python, our activities were based on the paper accessible [here](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Dosovitskiy_FlowNet_Learning_Optical_ICCV_2015_paper.pdf "here").
 
-All the python scripts and files related to our work are located in [this drive folder ](https://drive.google.com/drive/folders/1AzdviIRpevFtiNRG4431bvwi1OJhvI-U?usp=sharing "this drive folder ")
+All the python scripts and files related to our work are located in [this drive](https://drive.google.com/drive/folders/1s9p2EZWLD_2DntLngYlr0w6E2-8pVQE6?usp=sharing "this drive").
 
-#### Our main functions are organized in the notebook named is in phaseAmplify.ipynb. This notebook contains functions for phase amplifications, it manages : 
-* Filtering tests within different types of pyramid
-* Amplification and attenuation with different factors 
-* Noise handling with different types of noising video frames
+#### Our main function is located in the notebook named FlowNet_fine_tuning.ipynb. This notebook contains functions for fine-tuning the FlowNetS architecture, it manages : 
+* Fine-tuning the FlowNetS
+* Using pretained weights for our neural network from 'flownets_EPE1.951.pth.tar' given by Clément Pinard
+* Training and validating our network
 
 #### All the functions involved in the notebook requided the following functions : 
-* The file util.py utilities such as converting video formats, loading and writing video frames
-* The file filter_tools.py contains the filtering algorithms.
-* The file pyramid_tools contains functions dedicated to work with the steerable pyramid.
+* The file util.py contains utilities such as coloring flow, computing and storing average and the current values.
+* The file main.py contains the steps for loading, training and validating the dataset.
+* The file multiscaleloss.py contains functions dedicated to compute different type of loss in order to have performance estimation. 
 
-#### Our main folder project contains 2 subfolders : tests and presentations 
-* Tests : This folder contains the results of the videos used for our processing purposes (The original videos used are : baby.avi, woman.avi, Tree-44374.mp4, and those are located in the main folder)
-* Presentations : This folder contains our slides and related files for the presentations
+#### Our main folder project contains differents subfolders : here are listed the main ones are : 
+* datasets : This folder contains python codes for data generations for network training purposes.
+* sintel_ds : Contains images related to sintel dataset.
+* models : Python codes for different flownet architectures.
+* Pretrained : Trained neural network weights.
+* Présentations : This folder contains our slides and related files for the presentations.
+ 
 
 ### Thanks !
