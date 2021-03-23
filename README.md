@@ -1,5 +1,5 @@
 ## Phase Based video Motion Magnification
-Authors: Alina CIOCARLAN and Louis SANTANNA
+Authors: Alina CIOCARLAN and Louis SANT'ANNA
 This project is about motion magnification : Main goal is to amplify some kind of small motions not visible by human retina.
 This project has been implemented in python, our activities were based on the paper accessible [here](http://people.csail.mit.edu/nwadhwa/phase-video/ "here").
 
@@ -19,4 +19,4 @@ All the python scripts and files related to our work are located in [this drive 
 * Tests : This folder contains the results of the videos used for our processing purposes (The original videos used are : baby.avi, woman.avi, Tree-44374.mp4, and those are located in the main folder)
 * Presentations : This folder contains our slides and related files for the presentations
 
-###Thanks !
+### Thanks !
