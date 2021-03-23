@@ -1,5 +1,5 @@
 ## Phase Based video Motion Magnification
-### Authors: CIOCARLAN Alina, KLEIMAN Ilan, LEMERLE Gaspard, SANTANNA Louis
+### Authors: CIOCARLAN Alina, KLEIMAN Ilan, LEMERLE Gaspard, SANT'ANNA Louis
 
 This project is about optical flow : Main goal is implementation of optical flow computation based on flownet within fine-tuning.
 This project has been implemented in python, our activities were based on the paper accessible [here](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Dosovitskiy_FlowNet_Learning_Optical_ICCV_2015_paper.pdf "here").
