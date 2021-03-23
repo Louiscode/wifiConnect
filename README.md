@@ -1,5 +1,6 @@
 ## Phase Based video Motion Magnification
-Authors: Alina CIOCARLAN and Louis SANT'ANNA
+### Authors: Alina CIOCARLAN and Louis SANT'ANNA
+
 This project is about motion magnification : Main goal is to amplify some kind of small motions not visible by human retina.
 This project has been implemented in python, our activities were based on the paper accessible [here](http://people.csail.mit.edu/nwadhwa/phase-video/ "here").
 
